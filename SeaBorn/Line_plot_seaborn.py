@@ -22,6 +22,6 @@ print(df)
 # sns.lineplot(data= grouped_data , x="Project Name",y="Progress")
 # plt.show()
 # This is for ungrouped data
-sns.lineplot(data= data , x="Task Name",y="Days Required",hue="Project Name",style="ethnicity")
+sns.lineplot(data= data , x="Task Name",y="Days Required",hue="Project Name",)
 plt.legend(loc="upper right",borderpad=-6)
 plt.show()
